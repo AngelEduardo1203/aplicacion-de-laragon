@@ -1,0 +1,14 @@
+CRITICAL - 2022-05-12 21:15:29 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(706): require()
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\aodsab\spark(63): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2022-05-12 21:15:52 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(706): require()
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\aodsab\spark(63): CodeIgniter\CLI\Console->run()
+#5 {main}

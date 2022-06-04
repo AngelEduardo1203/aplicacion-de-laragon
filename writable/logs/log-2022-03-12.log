@@ -1,0 +1,28 @@
+CRITICAL - 2022-03-12 22:46:51 --> Undefined variable $title
+#0 E:\itst\dp2f\aodsab\app\Views\news\create.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\itst\\dp2f\\ao...', 5)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\itst\\dp2f\\ao...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/news/create', Array, true)
+#4 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(50): view('/news/create')
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->create()
+#6 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#10 {main}
+CRITICAL - 2022-03-12 22:47:25 -->  route cannot be found while reverse-routing.
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(48): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->create()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#7 {main}
+CRITICAL - 2022-03-12 22:48:03 --> Undefined constant "App\Controllers\helper"
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->create()
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#5 {main}

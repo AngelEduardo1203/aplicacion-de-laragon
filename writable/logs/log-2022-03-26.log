@@ -1,0 +1,19 @@
+ERROR - 2022-03-26 17:52:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[15, 2]) NOT NULL,
+	`activo` boolean NOT NULL DEFAULT 0,
+	`created_at` dateti...' at line 8
+ERROR - 2022-03-26 23:57:27 --> Cannot add or update a child row: a foreign key constraint fails (`aodsab`.`news`, CONSTRAINT `news_periodista_foreign` FOREIGN KEY (`periodista`) REFERENCES `periodistas` (`id`))
+CRITICAL - 2022-03-26 23:57:27 --> Cannot add or update a child row: a foreign key constraint fails (`aodsab`.`news`, CONSTRAINT `news_periodista_foreign` FOREIGN KEY (`periodista`) REFERENCES `periodistas` (`id`))
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ne...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ne...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ne...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ne...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(51): CodeIgniter\Model->insert(Array)
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->create()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}

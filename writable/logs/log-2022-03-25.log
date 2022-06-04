@@ -1,0 +1,15 @@
+ERROR - 2022-03-25 23:50:52 --> Error connecting to the database: Unknown database 'aodsab'
+CRITICAL - 2022-03-25 23:50:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'aodsab'
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#5 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#6 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#11 {main}

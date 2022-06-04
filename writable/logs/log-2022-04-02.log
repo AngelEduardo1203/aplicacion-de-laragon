@@ -1,0 +1,5 @@
+ERROR - 2022-04-02 17:29:47 --> Error connecting to the database: Unknown database 'aodsab'
+ERROR - 2022-04-02 17:29:47 --> Error connecting to the database: Unknown database 'aodsab'
+ERROR - 2022-04-02 17:30:16 --> Can't create table `aodsab`.`news` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-02 17:31:46 --> Can't create table `aodsab`.`news` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-02 17:32:07 --> Can't create table `aodsab`.`news` (errno: 150 "Foreign key constraint is incorrectly formed")

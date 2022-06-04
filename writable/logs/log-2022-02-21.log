@@ -1,0 +1,272 @@
+ERROR - 2022-02-21 14:03:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 14:03:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 14:05:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 14:05:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 18:37:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 18:37:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 18:38:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 18:38:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 18:38:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 18:38:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 20:54:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 20:54:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 21:22:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 21:22:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 21:24:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 21:24:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 21:53:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 21:53:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+ERROR - 2022-02-21 21:53:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 21:53:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+CRITICAL - 2022-02-21 21:56:53 --> Undefined variable $title
+#0 E:\itst\dp2f\aodsab\app\Views\news\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\itst\\dp2f\\ao...', 1)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\itst\\dp2f\\ao...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('news/index', Array, true)
+#4 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(19): view('news/index', Array)
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#6 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#10 {main}
+CRITICAL - 2022-02-21 21:57:15 --> Undefined variable $title
+#0 E:\itst\dp2f\aodsab\app\Views\news\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\itst\\dp2f\\ao...', 1)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\itst\\dp2f\\ao...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('news/index', Array, true)
+#4 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(19): view('news/index', Array)
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#6 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#10 {main}
+ERROR - 2022-02-21 21:59:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+CRITICAL - 2022-02-21 21:59:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:' at line 3
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#8 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#9 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#10 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#13 {main}
+CRITICAL - 2022-02-21 21:59:40 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, array given, called in E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php on line 728
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\Model->__call('orderBy', Array)
+#2 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#8 {main}
+CRITICAL - 2022-02-21 21:59:42 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, array given, called in E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php on line 728
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\Model->__call('orderBy', Array)
+#2 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#8 {main}
+CRITICAL - 2022-02-21 21:59:57 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, array given, called in E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php on line 728
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\Model->__call('orderBy', Array)
+#2 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#8 {main}
+CRITICAL - 2022-02-21 22:00:10 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, array given, called in E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php on line 728
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\Model->__call('orderBy', Array)
+#2 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#8 {main}
+CRITICAL - 2022-02-21 22:00:33 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, array given, called in E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php on line 728
+#0 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->orderBy(Array)
+#1 E:\itst\dp2f\aodsab\app\Models\NewsModel.php(46): CodeIgniter\Model->__call('orderBy', Array)
+#2 E:\itst\dp2f\aodsab\app\Controllers\NewsController.php(16): App\Models\NewsModel->getNews()
+#3 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\NewsController->index()
+#4 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewsController))
+#5 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\itst\dp2f\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\itst\dp2f\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\itst\\dp2f\\ao...')
+#8 {main}

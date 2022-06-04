@@ -1,0 +1,115 @@
+CRITICAL - 2022-05-07 16:47:50 --> syntax error, unexpected ''foto'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-07 16:48:11 --> syntax error, unexpected ''nombre'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-07 16:48:12 --> syntax error, unexpected ''nombre'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-07 16:48:13 --> syntax error, unexpected ''nombre'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-07 16:48:14 --> syntax error, unexpected ''nombre'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-07 16:48:31 --> Invalid file: periodidtas/show.php
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('periodidtas/sho...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('periodidtas/sho...', Array, true)
+#2 D:\laragon\www\aodsab\app\Controllers\PeriodistaController.php(25): view('periodidtas/sho...')
+#3 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PeriodistaController->show('create')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodistaController))
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-07 16:50:25 --> Invalid file: periodidtas/show.php
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('periodidtas/sho...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('periodidtas/sho...', Array, true)
+#2 D:\laragon\www\aodsab\app\Controllers\PeriodistaController.php(25): view('periodidtas/sho...')
+#3 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PeriodistaController->show('create')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodistaController))
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-07 16:50:27 --> Invalid file: periodidtas/show.php
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('periodidtas/sho...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('periodidtas/sho...', Array, true)
+#2 D:\laragon\www\aodsab\app\Controllers\PeriodistaController.php(25): view('periodidtas/sho...')
+#3 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PeriodistaController->show('create')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodistaController))
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-07 16:50:28 --> Invalid file: periodidtas/show.php
+#0 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('periodidtas/sho...')
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('periodidtas/sho...', Array, true)
+#2 D:\laragon\www\aodsab\app\Controllers\PeriodistaController.php(25): view('periodidtas/sho...')
+#3 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\PeriodistaController->show('create')
+#4 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodistaController))
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-07 17:47:59 --> Undefined variable: cateorias
+#0 D:\laragon\www\aodsab\app\Controllers\CategoriaController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\CategoriaController->index()
+#2 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriaController))
+#3 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-07 17:49:33 --> Undefined variable: title
+#0 D:\laragon\www\aodsab\app\Views\categorias\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 5, Array)
+#1 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#4 D:\laragon\www\aodsab\app\Controllers\CategoriaController.php(19): view('categorias/inde...', Array)
+#5 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\CategoriaController->index()
+#6 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriaController))
+#7 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\aodsab\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\aodsab\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
